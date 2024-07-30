@@ -1,4 +1,4 @@
-## (Advent of code)[https://adventofcode.com]
+## [Advent of code](https://adventofcode.com)
 
 ### Problem Solution for the First Challenge
 
