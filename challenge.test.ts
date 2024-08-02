@@ -1,17 +1,10 @@
-import * as fs from "fs";
-
 import {
   calculateFuel,
   sumOfFuelReq,
   massOfFuel,
   totalSumOfMass,
+  fuel,
 } from "./challenge";
-
-// Read input from 'input.txt'
-const input = fs.readFileSync("input.txt", "utf8");
-
-// Grab input data from txt file and convert into an array of numbers
-const fuel: number[] = input.split(",").map(Number);
 
 describe("Fuel Calculation Functions", () => {
   test("calculateFuel returns the fuel for given mass", () => {
